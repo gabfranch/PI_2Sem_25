@@ -18,3 +18,8 @@ primary key (id_leitura),
 foreign key (centro_id) references tb_centros(centro_id)
 );
 
+
+ALTER TABLE tb_leituras
+ADD poeira_2 float;
+
+select * from tb_leituras;
