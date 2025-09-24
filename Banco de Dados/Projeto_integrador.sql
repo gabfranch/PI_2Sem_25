@@ -10,16 +10,14 @@ primary key (centro_id)
 create table tb_leituras (
 id_leitura int(10) not null auto_increment,
 dia_hora datetime,
-poeira float,
+poeira_1 float,
+poeira_2 float,
+pressao float,
+altitude float,
 co2 float,
 umidade float,
 centro_id int(10),
 primary key (id_leitura),
 foreign key (centro_id) references tb_centros(centro_id)
 );
-
-
-ALTER TABLE tb_leituras
-ADD poeira_2 float;
-
 select * from tb_leituras;
