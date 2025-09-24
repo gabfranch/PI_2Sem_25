@@ -1,0 +1,5 @@
+mapa - 
+
+gráfico de barras - poeira, co2 umidade
+
+gráficos linha - x= data, y= poeira, co2 e umidade
